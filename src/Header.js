@@ -6,8 +6,27 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      {/* <Divider orientation="center"></Divider> */}
-      <Row justify="space-evenly" style={{ marginTop: 20 }}>
+      <Row
+        justify="center"
+        style={{
+          paddingTop: "1vh",
+          background: "black",
+        }}
+      >
+        <Col xs={24}>
+          <h1 style={{ color: "white", textAlign: "center" }}>
+            Greg Edmondson
+          </h1>
+        </Col>
+      </Row>
+      <Row
+        justify="space-evenly"
+        style={{
+          marginTop: "-1vh",
+          paddingBottom: "0.5vh",
+          background: "black",
+        }}
+      >
         <Col>
           <Link to="/">
             <Button>About</Button>
