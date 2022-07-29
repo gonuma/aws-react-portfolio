@@ -18,7 +18,7 @@ const Home = () => {
           width: "inherit",
           objectFit: "cover",
         }}
-        src="https://s3.ap-northeast-1.amazonaws.com/www.gonuma.com/this+one+(2).jpg"
+        src="https://s3.ap-northeast-1.amazonaws.com/www.gonuma.com/images/cowboy.JPG"
       />
     </div>
   );
